@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/sample2/static/css/main.e45642aa.css",
+    "main.js": "/sample2/static/js/main.f3c00af3.js",
+    "static/media/bg3.jpg": "/sample2/static/media/bg3.540e6f41a12d2c14542a.jpg",
+    "static/media/weatherapp.PNG": "/sample2/static/media/weatherapp.7c315432fb5ab32b8551.PNG",
+    "static/media/memgame.PNG": "/sample2/static/media/memgame.5a806d35fcf6287976f8.PNG",
+    "index.html": "/sample2/index.html",
+    "main.e45642aa.css.map": "/sample2/static/css/main.e45642aa.css.map",
+    "main.f3c00af3.js.map": "/sample2/static/js/main.f3c00af3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e45642aa.css",
+    "static/js/main.f3c00af3.js"
+  ]
+}
