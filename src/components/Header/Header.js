@@ -12,19 +12,19 @@ function Header() {
   return (
     <div className="header-container">
       <div className="menu-container">
-        <a href="/#main2">
+        <a href="#main2">
           <div className="logo">Sample</div>
         </a>
         <nav ref={navRef} className="menu">
           <ul className="list">
             <li className="listitem">
-              <a href="/#main2">Home</a>
+              <a href="#main2">Home</a>
             </li>
             <li className="listitem">
-              <a href="/#work">My work</a>
+              <a href="#work">My work</a>
             </li>
             <li className="listitem">
-              <a href="/#contact">Contact</a>
+              <a href="#contact">Contact</a>
             </li>
           </ul>
           <button className="nav-btn nav-close-btn" onClick={showNavbar}>
