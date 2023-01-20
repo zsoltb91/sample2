@@ -1,0 +1,61 @@
+.contact-container {
+  margin: auto auto auto auto;
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  justify-items: center;
+  justify-content: center;
+}
+
+input {
+  margin: auto;
+}
+
+contact-flex {
+  justify-items: center;
+}
+
+h3 {
+  font-weight: 50;
+  margin: 2rem auto 1rem auto;
+}
+
+form {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+
+  gap: 20px;
+}
+
+form,
+button,
+input,
+textarea {
+  margin: auto;
+  color: black;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+button {
+  width: 5rem;
+  margin: auto auto 15rem auto;
+}
+
+#nmid {
+  width: 20rem;
+}
+
+#msgid {
+  width: 20rem;
+}
+
+#emid {
+  width: 20rem;
+}
+
+#contact {
+  padding-top: 25vh;
+}

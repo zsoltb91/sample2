@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora&display=swap");
+
+.header-container {
+  position: fixed;
+  width: 100%;
+  display: flex;
+  background-color: var(--bgcolor);
+  color: var(--textcolor);
+  min-height: 50px;
+  font-family: "Lora", serif;
+  justify-content: center;
+}
+
+.nav-btn {
+  padding: 5px;
+  cursor: pointer;
+  background: transparent;
+  border: none;
+  outline: none;
+  color: var(--textColor);
+  display: none;
+  opacity: 0;
+  font-size: 1.8rem;
+}
+
+.menu-container {
+  background-color: var(--bgcolor);
+  display: flex;
+  width: 60%;
+  margin: auto 20rem auto 20rem;
+  min-height: 50px;
+  max-height: 50px;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: var(--textColor);
+}
+
+ul a:hover {
+  opacity: 0.4;
+}
+
+.logo {
+  font-size: 1.8rem;
+}
+
+.menu {
+  display: flex;
+}
+
+.list {
+  display: flex;
+  font-size: 1.2rem;
+}
+
+.listitem {
+  margin: auto 3rem auto auto;
+  display: flex;
+}
+
+@media only screen and (max-width: 1024px) {
+  .header-container .nav-btn {
+    display: block;
+    opacity: 1;
+  }
+
+  .menu-container ul {
+    flex-direction: column;
+  }
+
+  .listitem {
+    margin: auto;
+  }
+
+  .menu-container nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 30vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    background-color: #000000;
+    transition: 1s;
+    transform: translateY(-100vh);
+    z-index: 90;
+  }
+
+  .header-container .responsive_nav {
+    transform: none;
+  }
+
+  nav .nav-close-btn {
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+  }
+
+  nav a {
+    font-size: 1.5rem;
+  }
+}

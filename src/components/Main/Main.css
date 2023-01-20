@@ -1,0 +1,28 @@
+.text-container {
+  margin: auto auto auto auto;
+  justify-content: center;
+  justify-items: center;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+h1 {
+  font-size: var(--lgfsize);
+  margin: auto auto 1rem auto;
+}
+
+p {
+  font-size: var(--sfsize);
+  margin: 2rem auto 1rem auto;
+}
+
+#main2 {
+  padding-top: 30vh;
+}
+
+@media only screen and (max-width: 569px) {
+  p {
+    text-align: center;
+  }
+}

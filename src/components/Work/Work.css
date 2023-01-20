@@ -1,0 +1,107 @@
+.wtext-container {
+  margin: 40vh auto auto auto;
+  justify-content: center;
+  justify-items: center;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.grid-container {
+  margin: 1rem auto auto auto;
+  width: 60%;
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 100px;
+}
+
+h1 {
+  font-size: var(--lgfsize);
+  margin: auto auto 2rem auto;
+}
+
+h2 {
+  font-weight: 100;
+  margin: auto auto 1rem auto;
+}
+
+p {
+  font-size: var(--vsfsize);
+  font-weight: 90;
+  margin: 1rem auto 2rem auto;
+}
+
+.elem1 {
+  grid-column: 1;
+  text-align: center;
+  width: 100%;
+}
+
+.elem2 {
+  text-align: center;
+  grid-column: 2;
+  width: 100%;
+}
+
+.imgs {
+  width: 20rem;
+  border-radius: 10px;
+  transition: transform 0.2s;
+}
+
+.githublogo {
+  width: 2rem;
+  transition: transform 0.2s;
+}
+
+.githublogo:hover {
+  cursor: pointer;
+  opacity: 0.4;
+  width: 2rem;
+  transform: scale(1.05);
+}
+
+#work {
+  padding-top: 10vh;
+}
+
+.imgs:hover {
+  transform: scale(1.05);
+}
+
+@media only screen and (max-width: 609px) {
+  h1 {
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 760px) {
+  .grid-container {
+    margin: 1rem auto auto auto;
+    width: 60%;
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 100px;
+    column-gap: 0;
+  }
+
+  .elem1 {
+    margin: auto;
+    grid-column: 1;
+    grid-row: 1;
+    text-align: center;
+    width: 100%;
+  }
+
+  .elem2 {
+    margin: auto;
+    grid-column: 1;
+    grid-row: 2;
+    text-align: center;
+    width: 100%;
+  }
+}
